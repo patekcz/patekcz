@@ -1,6 +1,6 @@
 <br clear="both">
 
-<h2 align="left">Welcome to mine Github</h2>
+<h2>Welcome to mine Github</h2>
 
 ###
 
