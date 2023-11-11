@@ -1,13 +1,11 @@
-<br clear="both">
+<br><br>
+<pre>
+            ⭐ 𝘍𝘳𝘰𝘯𝘵𝘦𝘯𝘥 𝘢𝘯𝘥 𝘉𝘢𝘤𝘬𝘦𝘯𝘥 𝘥𝘦𝘷 • 𝘞𝘦𝘣𝘴𝘪𝘵𝘦 𝘌𝘯𝘨𝘪𝘯𝘦𝘦𝘳
+             🌱 𝘑𝘢𝘷𝘢𝘚𝘤𝘳𝘪𝘱 • 𝘏𝘵𝘮𝘭 • 𝘊𝘴𝘴 • 𝘝𝘶𝘦.𝘫𝘴 • 𝘕𝘰𝘥𝘦.𝘫𝘴
+    🍁 𝘊𝘳𝘦𝘢𝘵𝘦 𝘞𝘦𝘣𝘴𝘪𝘵𝘦𝘴, 𝘋𝘪𝘴𝘤𝘰𝘳𝘥 𝘣𝘰𝘵𝘴, 𝘌𝘭𝘦𝘤𝘵𝘳𝘰𝘯 𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 𝘢𝘯𝘥 𝘮𝘰𝘳𝘦
+</pre>
+<br><br>
 
-<h2>Welcome to mine Github</h2>
-
-###
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=patekcz&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=gruvbox&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=patekcz&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
-</div>
 
 ###
 
@@ -50,13 +48,5 @@
     <img src="https://img.shields.io/static/v1?message=Ko-fi&logo=ko-fi&label=&color=000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="ko-fi logo"  />
   </a>
 </div>
-
-###
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/patekcz/patekcz/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/patekcz/patekcz/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/patekcz/patekcz/output/github-contribution-grid-snake.svg">
-</picture>
 
 ###
