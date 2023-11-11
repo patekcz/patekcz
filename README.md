@@ -1,3 +1,4 @@
+[![](https://visitcount.itsvg.in/api?id=patekcz&icon=7&color=12)](https://visitcount.itsvg.in)
 <br><br>
 <pre align="center">
   ⭐ 𝘍𝘳𝘰𝘯𝘵𝘦𝘯𝘥 𝘢𝘯𝘥 𝘉𝘢𝘤𝘬𝘦𝘯𝘥 𝘥𝘦𝘷 • 𝘞𝘦𝘣𝘴𝘪𝘵𝘦 𝘌𝘯𝘨𝘪𝘯𝘦𝘦𝘳
