@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=17D1D1&multiline=true&repeat=false&random=false&width=835&height=90&lines=Hello+Hello;I'm+patek%2C+I+like+to+create+magical+projects)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=10000&pause=1000&color=17D1D1&multiline=true&repeat=false&random=false&width=835&height=90&lines=Hello+Hello;I'm+patek%2C+I+like+to+create+magical+projects)](https://git.io/typing-svg)
 
 <br><br>
 <pre align="center">
