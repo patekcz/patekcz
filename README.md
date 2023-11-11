@@ -53,4 +53,5 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/patekcz/patekcz/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/patekcz/patekcz/output/github-contribution-grid-snake.svg">
 </picture>
+
 [![](https://visitcount.itsvg.in/api?id=patekcz&icon=7&color=12)](https://visitcount.itsvg.in)
