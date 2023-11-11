@@ -1,4 +1,5 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=17D1D1&random=false&width=435&lines=Hello+Hello;I'm+patek%2C+I+like+to+create+magical+projects)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=17D1D1&multiline=true&repeat=false&random=false&width=835&height=90&lines=Hello+Hello;I'm+patek%2C+I+like+to+create+magical+projects)](https://git.io/typing-svg)
+
 <br><br>
 <pre align="center">
   ⭐ 𝘍𝘳𝘰𝘯𝘵𝘦𝘯𝘥 𝘢𝘯𝘥 𝘉𝘢𝘤𝘬𝘦𝘯𝘥 𝘥𝘦𝘷 • 𝘞𝘦𝘣𝘴𝘪𝘵𝘦 𝘌𝘯𝘨𝘪𝘯𝘦𝘦𝘳
