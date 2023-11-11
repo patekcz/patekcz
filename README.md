@@ -1,11 +1,12 @@
 <br><br>
 <pre>
-                      ⭐ 𝘍𝘳𝘰𝘯𝘵𝘦𝘯𝘥 𝘢𝘯𝘥 𝘉𝘢𝘤𝘬𝘦𝘯𝘥 𝘥𝘦𝘷 • 𝘞𝘦𝘣𝘴𝘪𝘵𝘦 𝘌𝘯𝘨𝘪𝘯𝘦𝘦𝘳
-                       🌱 𝘑𝘢𝘷𝘢𝘚𝘤𝘳𝘪𝘱 • 𝘏𝘵𝘮𝘭 • 𝘊𝘴𝘴 • 𝘝𝘶𝘦.𝘫𝘴 • 𝘕𝘰𝘥𝘦.𝘫𝘴
-              🍁 𝘊𝘳𝘦𝘢𝘵𝘦 𝘞𝘦𝘣𝘴𝘪𝘵𝘦𝘴, 𝘋𝘪𝘴𝘤𝘰𝘳𝘥 𝘣𝘰𝘵𝘴, 𝘌𝘭𝘦𝘤𝘵𝘳𝘰𝘯 𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 𝘢𝘯𝘥 𝘮𝘰𝘳𝘦
+                                     ⭐ 𝘍𝘳𝘰𝘯𝘵𝘦𝘯𝘥 𝘢𝘯𝘥 𝘉𝘢𝘤𝘬𝘦𝘯𝘥 𝘥𝘦𝘷 • 𝘞𝘦𝘣𝘴𝘪𝘵𝘦 𝘌𝘯𝘨𝘪𝘯𝘦𝘦𝘳
+                                      🌱 𝘑𝘢𝘷𝘢𝘚𝘤𝘳𝘪𝘱 • 𝘏𝘵𝘮𝘭 • 𝘊𝘴𝘴 • 𝘝𝘶𝘦.𝘫𝘴 • 𝘕𝘰𝘥𝘦.𝘫𝘴
+                             🍁 𝘊𝘳𝘦𝘢𝘵𝘦 𝘞𝘦𝘣𝘴𝘪𝘵𝘦𝘴, 𝘋𝘪𝘴𝘤𝘰𝘳𝘥 𝘣𝘰𝘵𝘴, 𝘌𝘭𝘦𝘤𝘵𝘳𝘰𝘯 𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 𝘢𝘯𝘥 𝘮𝘰𝘳𝘦
 </pre>
 <br><br>
-###
+
+
 <div align="center">
   <img src="https://skillicons.dev/icons?i=js" height="19" alt="javascript logo"  />
   <img width="12" />
@@ -25,7 +26,8 @@
   <img width="12" />
   <img src="https://cdn.simpleicons.org/linux/FCC624" height="19" alt="linux logo"  />
 </div>
-###
+
+
 <div align="center">
   <a href="https://www.instagram.com/qverlix" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"  />
@@ -44,4 +46,3 @@
   </a>
 </div>
 
-###
