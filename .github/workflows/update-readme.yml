@@ -1,25 +1,54 @@
-name: Update README WakaTime
+name: Update README with WakaTime Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Spustí se každý den o půlnoci
-  workflow_dispatch:  # Umožní manuální spuštění
+    - cron: "1 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   update-readme:
+    permissions: 
+      contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+    
     steps:
     - uses: actions/checkout@v4
+    
     - name: Use Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '20'
-    - name: Update README
+    
+    - name: List directory contents
+      run: ls -R
+    
+    - name: Check file existence
+      run: |
+        [ -f update-readme.js ] && echo "update-readme.js exists" || echo "update-readme.js not found"
+        [ -f README.md ] && echo "README.md exists" || echo "README.md not found"
+    
+    - name: Check date and timezone
+      run: |
+        date
+        echo $TZ
+    
+    - name: Update README with WakaTime stats
       run: |
         node update-readme.js
-    - name: Commit and push if changed
+    
+    - name: Check updated README
+      run: |
+        [ -f README.md ] && echo "README.md exists" && tail -n 20 README.md || echo "README.md not found"
+    
+    - name: Push updated README
       run: |
         git config --global user.name 'patekcz'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add README.md
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update README WakaTime stats" && git push)
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Aktualizace WakaTime statistik $(date '+%Y-%m-%d %H:%M:%S')" && git push)
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
