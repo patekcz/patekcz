@@ -52,7 +52,7 @@ function createASCIIGraph(data) {
 
 function formatAllTimeData(allTimeData) {
   const grandTotal = allTimeData.data.grand_total;
-  return `**Celkový čas kódování:** ${grandTotal.human_readable_total_including_other_language}`;
+  return `All time: ${grandTotal.human_readable_total_including_other_language}`;
 }
 
 function generateWakaTimeContent(allTimeData, timeData) {
