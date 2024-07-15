@@ -41,6 +41,9 @@ jobs:
         date
         echo $TZ
     
+    - name: Install dependencies
+      run: npm install
+    
     - name: Display update-readme.js content
       run: |
         if [ -f update-readme.js ]; then
