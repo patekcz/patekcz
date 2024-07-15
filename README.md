@@ -49,20 +49,13 @@
 </div>
 
 <!-- WAKATIME-START -->
-## Můj WakaTime přehled
-
 **Celkový čas kódování:** 266 hrs 11 mins
-
-### Aktivita za poslední 3 dny
 
 ```
 Úterý                      29 mins 🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 Středa               2 hrs 37 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜
 Čtvrtek               4 hrs 5 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
 ```
-
-*Tato sekce je automaticky generována pomocí [WakaTime](https://wakatime.com/) API*
-
 <!-- WAKATIME-END -->
 
 <picture>
