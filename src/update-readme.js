@@ -28,24 +28,37 @@ function createASCIIGraph(data) {
   }
 
   const graphWidth = 25;
-  const maxSeconds = Math.max(...data.slice(0, 3).map(item => item.grand_total.total_seconds));
   const dny = ['Neděle', 'Pondělí', 'Úterý', 'Středa', 'Čtvrtek', 'Pátek', 'Sobota'];
+  const today = new Date();
+  const threeDaysAgo = new Date(today);
+  threeDaysAgo.setDate(today.getDate() - 2);
 
-  const graph = data.slice(0, 3).map((item) => {
-    const seconds = item.grand_total.total_seconds;
-    const barLength = (seconds / maxSeconds) * graphWidth;
+  const relevantData = data.filter(item => {
+    const itemDate = new Date(item.range.date);
+    return itemDate >= threeDaysAgo && itemDate <= today;
+  }).sort((a, b) => new Date(b.range.date) - new Date(a.range.date));
+
+  const maxSeconds = Math.max(...relevantData.map(item => item.grand_total.total_seconds || 0));
+
+  const graph = [];
+  for (let i = 0; i < 3; i++) {
+    const currentDate = new Date(today);
+    currentDate.setDate(today.getDate() - i);
+    const item = relevantData.find(d => new Date(d.range.date).toDateString() === currentDate.toDateString());
+    
+    const seconds = item ? item.grand_total.total_seconds : 0;
+    const barLength = maxSeconds > 0 ? (seconds / maxSeconds) * graphWidth : 0;
     const fullBlocks = Math.floor(barLength);
-    const partialBlock = '🟨';
+    const partialBlock = fullBlocks < graphWidth ? '🟨' : '';
     
     const bar = '🟩'.repeat(fullBlocks) + 
-                (fullBlocks < graphWidth ? partialBlock : '') + 
-                '⬜'.repeat(Math.max(graphWidth - fullBlocks - 1, 0));
+                partialBlock + 
+                '⬜'.repeat(Math.max(graphWidth - fullBlocks - (partialBlock ? 1 : 0), 0));
 
-    const date = new Date(item.range.date);
-    const dayText = dny[date.getDay()].padEnd(7);
-    const timeText = item.grand_total.text.padStart(12);
-    return `${dayText}            ${timeText.padStart(15)} ${bar}`;
-  });
+    const dayText = dny[currentDate.getDay()].padEnd(7);
+    const timeText = item ? item.grand_total.text : '0 secs';
+    graph.unshift(`${dayText}            ${timeText.padStart(15)} ${bar}`);
+  }
 
   return graph.join('\n');
 }
