@@ -1,0 +1,25 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Spustí se každý den o půlnoci
+  workflow_dispatch:  # Umožní manuální spuštění
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - name: Update README
+      run: |
+        node update-readme.js
+    - name: Commit and push if changed
+      run: |
+        git config --global user.name 'patekcz'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add README.md
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update README WakaTime stats" && git push)
