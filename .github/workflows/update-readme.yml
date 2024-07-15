@@ -24,7 +24,12 @@ jobs:
         node-version: '20'
     
     - name: List directory contents
-      run: ls -R
+      run: |
+        pwd
+        echo "Current directory contents:"
+        ls -la
+        echo "Root directory contents:"
+        ls -la /home/runner/work/patekcz/patekcz
     
     - name: Check file existence
       run: |
@@ -35,6 +40,15 @@ jobs:
       run: |
         date
         echo $TZ
+    
+    - name: Display update-readme.js content
+      run: |
+        if [ -f update-readme.js ]; then
+          echo "Content of update-readme.js:"
+          cat update-readme.js
+        else
+          echo "update-readme.js not found"
+        fi
     
     - name: Update README with WakaTime stats
       run: |
