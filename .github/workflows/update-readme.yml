@@ -16,43 +16,36 @@ jobs:
     timeout-minutes: 5
     
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
     
     - name: Use Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '20'
     
-    - name: List directory contents
+    - name: Debug information
       run: |
+        echo "Current directory:"
         pwd
-        echo "Current directory contents:"
+        echo "Directory contents:"
         ls -la
-        echo "Root directory contents:"
-        ls -la /home/runner/work/patekcz/patekcz
+        echo "src directory contents:"
+        ls -la src
+        echo "Git status:"
+        git status
+        echo "Git log (last 5 commits):"
+        git log -n 5 --oneline
     
-    - name: Check file existence
+    - name: List Git repository contents
       run: |
-        [ -f update-readme.js ] && echo "update-readme.js exists" || echo "update-readme.js not found"
-        [ -f README.md ] && echo "README.md exists" || echo "README.md not found"
-    
-    - name: Check date and timezone
-      run: |
-        date
-        echo $TZ
-    
-    - name: Display update-readme.js content
-      run: |
-        if [ -f update-readme.js ]; then
-          echo "Content of update-readme.js:"
-          cat update-readme.js
-        else
-          echo "update-readme.js not found"
-        fi
+        git ls-tree -r --name-only HEAD
     
     - name: Update README with WakaTime stats
       run: |
-        node update-readme.js
+        node src/update-readme.js
     
     - name: Check updated README
       run: |
