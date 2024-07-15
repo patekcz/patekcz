@@ -59,18 +59,11 @@ function generateWakaTimeContent(allTimeData, timeData) {
   const allTimeContent = formatAllTimeData(allTimeData);
   const graphContent = createASCIIGraph(timeData.data);
 
-  return `## Můj WakaTime přehled
-
-${allTimeContent}
-
-### Aktivita za poslední 3 dny
+  return `${allTimeContent}
 
 \`\`\`
 ${graphContent}
-\`\`\`
-
-*Tato sekce je automaticky generována pomocí [WakaTime](https://wakatime.com/) API*
-`;
+\`\`\``;
 }
 
 function updateReadmeSection(readmeContent, newContent) {
@@ -81,7 +74,6 @@ function updateReadmeSection(readmeContent, newContent) {
   const endIndex = readmeContent.indexOf(endMarker);
 
   if (startIndex === -1 || endIndex === -1) {
-    console.error('Značky pro WakaTime sekci nebyly nalezeny v README.');
     return readmeContent;
   }
 
@@ -106,9 +98,7 @@ async function main() {
     const updatedReadmeContent = updateReadmeSection(readmeContent, wakaTimeContent);
 
     fs.writeFileSync('README.md', updatedReadmeContent);
-    console.log('README.md byl úspěšně aktualizován.');
   } catch (error) {
-    console.error('Chyba při aktualizaci README:', error);
   }
 }
 
