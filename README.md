@@ -50,7 +50,7 @@
 
 <br></br>
 <!-- WAKATIME-START -->
-**Celkový čas kódování:** 266 hrs 11 mins
+All time: 266 hrs 11 mins
 
 ```
 Úterý                      29 mins 🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
