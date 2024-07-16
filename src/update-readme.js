@@ -30,21 +30,30 @@ function createASCIIGraph(data) {
   const graphWidth = 25;
   const dny = ['Neděle', 'Pondělí', 'Úterý', 'Středa', 'Čtvrtek', 'Pátek', 'Sobota'];
   const today = new Date();
-  const threeDaysAgo = new Date(today);
-  threeDaysAgo.setDate(today.getDate() - 2);
+  today.setHours(0, 0, 0, 0);  // Nastavte čas na půlnoc
+  const sevenDaysAgo = new Date(today);
+  sevenDaysAgo.setDate(today.getDate() - 6);
 
   const relevantData = data.filter(item => {
     const itemDate = new Date(item.range.date);
-    return itemDate >= threeDaysAgo && itemDate <= today;
-  }).sort((a, b) => new Date(b.range.date) - new Date(a.range.date));
+    itemDate.setHours(0, 0, 0, 0);  // Nastavte čas na půlnoc
+    return itemDate >= sevenDaysAgo && itemDate <= today;
+  }).sort((a, b) => new Date(a.range.date) - new Date(b.range.date));
+
+  console.log('Relevantní data:', relevantData);
 
   const maxSeconds = Math.max(...relevantData.map(item => item.grand_total.total_seconds || 0));
 
   const graph = [];
-  for (let i = 0; i < 3; i++) {
-    const currentDate = new Date(today);
-    currentDate.setDate(today.getDate() - i);
-    const item = relevantData.find(d => new Date(d.range.date).toDateString() === currentDate.toDateString());
+  for (let i = 0; i < 7; i++) {
+    const currentDate = new Date(sevenDaysAgo);
+    currentDate.setDate(sevenDaysAgo.getDate() + i);
+    console.log('Aktuální datum:', currentDate.toISOString());
+    
+    const item = relevantData.find(d => {
+      const dDate = new Date(d.range.date);
+      return dDate.toDateString() === currentDate.toDateString();
+    });
     
     const seconds = item ? item.grand_total.total_seconds : 0;
     const barLength = maxSeconds > 0 ? (seconds / maxSeconds) * graphWidth : 0;
@@ -56,8 +65,9 @@ function createASCIIGraph(data) {
                 '⬜'.repeat(Math.max(graphWidth - fullBlocks - (partialBlock ? 1 : 0), 0));
 
     const dayText = dny[currentDate.getDay()].padEnd(7);
+    console.log('Den v týdnu:', dayText);
     const timeText = item ? item.grand_total.text : '0 secs';
-    graph.unshift(`${dayText}            ${timeText.padStart(15)} ${bar}`);
+    graph.push(`${dayText}            ${timeText.padStart(15)} ${bar}`);
   }
 
   return graph.join('\n');
@@ -111,7 +121,9 @@ async function main() {
     const updatedReadmeContent = updateReadmeSection(readmeContent, wakaTimeContent);
 
     fs.writeFileSync('README.md', updatedReadmeContent);
+    console.log('README.md byl úspěšně aktualizován.');
   } catch (error) {
+    console.error('Došlo k chybě:', error);
   }
 }
 
