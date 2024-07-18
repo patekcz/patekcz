@@ -3,6 +3,7 @@ name: Update README with WakaTime Stats
 on:
   schedule:
     - cron: "1 0 * * *"
+    - cron: "1 12 * * *"
   workflow_dispatch:
   push:
     branches:
