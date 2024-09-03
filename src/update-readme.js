@@ -209,9 +209,9 @@ function formatLanguagesData(languagesData) {
 		"pssc": "shell",
     "other": "code-blue",
     };
-    const icon = iconMapping[lang.name.toLowerCase()] || 'default-icon'; // Výchozí ikona
+    const icon = iconMapping[lang.name.toLowerCase()] || 'code-blue'; // Výchozí ikona
     const iconUrl = `https://github.com/patekcz/patekcz/raw/main/icon-language/${icon}.png`;
-    return `- ![${lang.name.toLowerCase()}](${iconUrl}) **${lang.name.toLowerCase()}**: ${lang.percent.toFixed(2)}%`; // Převod na malé písmena
+    return `- ![${lang.name.toLowerCase()}](${iconUrl} =15x15) **${lang.name.toLowerCase()}**: ${lang.percent.toFixed(2)}%`; // Převod na malé písmena a nastavení velikosti
   }).join('\n');
   return `${languages}`;
 }
