@@ -220,7 +220,7 @@ function formatLanguagesData(languagesData) {
   for (let i = 0; i < languagesData.data.length; i += languagesPerRow) {
     rows.push(languages.slice(i, i + languagesPerRow).join(' | '));
   }
-  return rows.join('\n'); // Vložení nového řádku mezi řádky
+  return rows.join('\n\n'); // Vložení dvou nových řádků mezi řádky pro vizuální oddělení
 }
 
 function generateWakaTimeContent(allTimeData, timeData) {
