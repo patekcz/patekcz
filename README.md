@@ -69,6 +69,21 @@ Neděle               3 hrs 20 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
 Pondělí              3 hrs 29 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜
 Úterý                       0 secs 🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 ```
+
+### Používané programovací jazyky
+TypeScript: 58.92%
+JavaScript: 10.12%
+Other: 7.94%
+CSS: 6.38%
+JSON: 5.97%
+Markdown: 2.82%
+Bash: 2.23%
+YAML: 1.61%
+Vue.js: 1.49%
+HTML: 1.38%
+Git: 0.91%
+Roff: 0.14%
+Text: 0.08%
 <!-- WAKATIME-END -->
 
 
