@@ -213,7 +213,14 @@ function formatLanguagesData(languagesData) {
     const iconUrl = `https://github.com/patekcz/patekcz/raw/main/icon-language/${icon}.png`;
     return `<span style="display: inline-flex; align-items: center; font-size: 12px; white-space: nowrap;"> <img src="${iconUrl}" height="15" alt="${lang.name.toLowerCase()} logo" style="margin-right: 0px;" /> **${lang.name.toLowerCase()}**: ${lang.percent.toFixed(2)}%</span>`; // Zajištění jednoho řádku
   }).join(' | '); // Použití '|' pro oddělení jazyků
-  return `${languages}`;
+
+  // Nový kód pro rozdělení jazyků do řádků po 4
+  const languagesPerRow = 4;
+  const rows = [];
+  for (let i = 0; i < languagesData.data.length; i += languagesPerRow) {
+    rows.push(languages.slice(i, i + languagesPerRow).join(' | '));
+  }
+  return rows.join('\n'); // Vložení nového řádku mezi řádky
 }
 
 function generateWakaTimeContent(allTimeData, timeData) {
