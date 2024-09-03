@@ -82,8 +82,73 @@ function formatAllTimeData(allTimeData) {
 
 function formatLanguagesData(languagesData) {
   const languages = languagesData.data.map(lang => {
-    const iconUrl = `https://skillicons.dev/icons?i=${lang.name.toLowerCase()}&size=16`;
-    return `- ![${lang.name}](${iconUrl}) **${lang.name}**: ${lang.percent.toFixed(2)}%`;
+    const iconName = lang.name.toLowerCase().replace(/\s+/g, '-'); // Nahraďte mezery pomlčkami
+    // Přidání logiky pro převod jazyka na název ikonky
+    const iconMapping = {
+      "pdf": "pdf",
+      "haskell": "haskell",
+      "earthfile": "earthfile",
+      "nunjucks": "nunjucks",
+      "vb": "visual-studio",
+      "mdx": "mdx",
+      "lang-cfml": "coldfusion",
+      "editorconfig": "editorconfig",
+      "tex": "tex",
+      "terraform": "terraform",
+      "elixir": "elixir",
+      "erlang": "erlang",
+      "postcss": "postcss",
+      "scala": "scala",
+      "styl": "stylus",
+      "graphql": "graphql",
+      "rust": "rust",
+      "swift": "swift",
+      "ruby": "ruby",
+      "svelte": "svelte",
+      "gherkin": "cucumber",
+      "r": "r",
+      "jade": "pug",
+      "pug": "pug",
+      "properties": "gear",
+      "perl": "perl",
+      "lua": "lua",
+      "makefile": "gear",
+      "markdown": "markdown",
+      "less": "brackets-sky",
+      "jinja": "brackets-red",
+      "java": "java",
+      "dart": "dart",
+      "clojure": "clojure",
+      "coffeescript": "coffeescript",
+      "fsharp": "fsharp",
+      "csharp": "csharp",
+      "razor": "razor",
+      "svg": "svg",
+      "css": "brackets-sky",
+      "julia": "julia",
+      "php": "php",
+      "twig": "twig",
+      "html": "brackets-orange",
+      "json": "brackets-yellow",
+      "python": "python",
+      "typescript": "ts",
+      "javascript": "js",
+      "go": "go",
+      "c": "c",
+      "cpp": "cplus",
+      "sql": "database",
+      "sass": "sass",
+      "scss": "sass",
+      "dockerfile": "docker",
+      "xml": "xml",
+      "csv": "csv",
+      "vue": "vue",
+      "nix": "nix",
+      // ... další mapování
+    };
+    const icon = iconMapping[lang.name.toLowerCase()] || 'default-icon'; // Výchozí ikona
+    const iconUrl = `https://github.com/patekcz/patekcz/raw/main/icon-language/${icon}.png`;
+    return `- ![${lang.name}](${iconUrl}) **${lang.name}**: ${lang.percent.toFixed(2)}% (Color: ${lang.color})`;
   }).join('\n');
   return `${languages}`;
 }
