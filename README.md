@@ -70,19 +70,19 @@ Pondělí              3 hrs 29 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩�
 Úterý                 1 hr 17 mins 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 ```
 
-- ![TypeScript](https://github.com/patekcz/patekcz/raw/main/icon-language/ts.png) **TypeScript**: 58.92% (Color: #3178c6)
-- ![JavaScript](https://github.com/patekcz/patekcz/raw/main/icon-language/js.png) **JavaScript**: 10.12% (Color: #f1e05a)
-- ![Other](https://github.com/patekcz/patekcz/raw/main/icon-language/default-icon.png) **Other**: 7.94% (Color: #16ce40)
-- ![CSS](https://github.com/patekcz/patekcz/raw/main/icon-language/brackets-sky.png) **CSS**: 6.38% (Color: #563d7c)
-- ![JSON](https://github.com/patekcz/patekcz/raw/main/icon-language/brackets-yellow.png) **JSON**: 5.97% (Color: #292929)
-- ![Markdown](https://github.com/patekcz/patekcz/raw/main/icon-language/markdown.png) **Markdown**: 2.82% (Color: #083fa1)
-- ![Bash](https://github.com/patekcz/patekcz/raw/main/icon-language/default-icon.png) **Bash**: 2.23% (Color: #dc9658)
-- ![YAML](https://github.com/patekcz/patekcz/raw/main/icon-language/default-icon.png) **YAML**: 1.61% (Color: #cb171e)
-- ![Vue.js](https://github.com/patekcz/patekcz/raw/main/icon-language/default-icon.png) **Vue.js**: 1.49% (Color: #d62728)
-- ![HTML](https://github.com/patekcz/patekcz/raw/main/icon-language/brackets-orange.png) **HTML**: 1.38% (Color: #e34c26)
-- ![Git](https://github.com/patekcz/patekcz/raw/main/icon-language/default-icon.png) **Git**: 0.91% (Color: #9467bd)
-- ![Roff](https://github.com/patekcz/patekcz/raw/main/icon-language/default-icon.png) **Roff**: 0.14% (Color: #ecdebe)
-- ![Text](https://github.com/patekcz/patekcz/raw/main/icon-language/default-icon.png) **Text**: 0.08% (Color: #8c564b)
+- ![typescript](https://github.com/patekcz/patekcz/raw/main/icon-language/ts.png) **typescript**: 58.92%
+- ![javascript](https://github.com/patekcz/patekcz/raw/main/icon-language/js.png) **javascript**: 10.12%
+- ![other](https://github.com/patekcz/patekcz/raw/main/icon-language/code-blue.png) **other**: 7.94%
+- ![css](https://github.com/patekcz/patekcz/raw/main/icon-language/brackets-sky.png) **css**: 6.38%
+- ![json](https://github.com/patekcz/patekcz/raw/main/icon-language/brackets-yellow.png) **json**: 5.97%
+- ![markdown](https://github.com/patekcz/patekcz/raw/main/icon-language/markdown.png) **markdown**: 2.82%
+- ![bash](https://github.com/patekcz/patekcz/raw/main/icon-language/shell.png) **bash**: 2.23%
+- ![yaml](https://github.com/patekcz/patekcz/raw/main/icon-language/yaml.png) **yaml**: 1.61%
+- ![vue.js](https://github.com/patekcz/patekcz/raw/main/icon-language/vue.png) **vue.js**: 1.49%
+- ![html](https://github.com/patekcz/patekcz/raw/main/icon-language/brackets-orange.png) **html**: 1.38%
+- ![git](https://github.com/patekcz/patekcz/raw/main/icon-language/git.png) **git**: 0.91%
+- ![roff](https://github.com/patekcz/patekcz/raw/main/icon-language/default-icon.png) **roff**: 0.14%
+- ![text](https://github.com/patekcz/patekcz/raw/main/icon-language/text.png) **text**: 0.08%
 <!-- WAKATIME-END -->
 
 
