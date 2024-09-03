@@ -81,8 +81,11 @@ function formatAllTimeData(allTimeData) {
 }
 
 function formatLanguagesData(languagesData) {
-  const languages = languagesData.data.map(lang => `${lang.name}: ${lang.percent.toFixed(2)}%`).join('\n');
-  return `### Používané programovací jazyky\n${languages}`;
+  const languages = languagesData.data.map(lang => {
+    const iconUrl = `https://skillicons.dev/icons?i=${lang.name.toLowerCase()}&size=16`;
+    return `- ![${lang.name}](${iconUrl}) **${lang.name}**: ${lang.percent.toFixed(2)}%`;
+  }).join('\n');
+  return `${languages}`;
 }
 
 function generateWakaTimeContent(allTimeData, timeData) {
