@@ -1,6 +1,8 @@
 const https = require('https');
 const fs = require('fs');
 
+const languagesDataUrl = 'https://wakatime.com/share/@patek_cz/92b15acc-b725-4b07-b856-b753899a227b.json';
+
 function getWakaTimeData(url) {
   return new Promise((resolve, reject) => {
     https.get(url, (res) => {
@@ -78,6 +80,11 @@ function formatAllTimeData(allTimeData) {
   return `All time: ${grandTotal.human_readable_total_including_other_language}`;
 }
 
+function formatLanguagesData(languagesData) {
+  const languages = languagesData.data.map(lang => `${lang.name}: ${lang.percent.toFixed(2)}%`).join('\n');
+  return `### Používané programovací jazyky\n${languages}`;
+}
+
 function generateWakaTimeContent(allTimeData, timeData) {
   const allTimeContent = formatAllTimeData(allTimeData);
   const graphContent = createASCIIGraph(timeData.data);
@@ -109,16 +116,18 @@ async function main() {
   try {
     const timeDataUrl = 'https://wakatime.com/share/@patek_cz/4253e379-bca0-4732-b22d-16eb74730130.json';
     const allTimeDataUrl = 'https://wakatime.com/share/@patek_cz/7eed1af5-ca68-4889-b018-456edef34023.json';
-
-    const [timeResponse, allTimeResponse] = await Promise.all([
+    
+    const [timeResponse, allTimeResponse, languagesResponse] = await Promise.all([
       getWakaTimeData(timeDataUrl),
-      getWakaTimeData(allTimeDataUrl)
+      getWakaTimeData(allTimeDataUrl),
+      getWakaTimeData(languagesDataUrl)
     ]);
 
     const wakaTimeContent = generateWakaTimeContent(allTimeResponse, timeResponse);
+    const languagesContent = formatLanguagesData(languagesResponse);
 
     let readmeContent = fs.readFileSync('README.md', 'utf8');
-    const updatedReadmeContent = updateReadmeSection(readmeContent, wakaTimeContent);
+    const updatedReadmeContent = updateReadmeSection(readmeContent, `${wakaTimeContent}\n\n${languagesContent}`);
 
     fs.writeFileSync('README.md', updatedReadmeContent);
     console.log('README.md byl úspěšně aktualizován.');
