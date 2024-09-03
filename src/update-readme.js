@@ -211,7 +211,7 @@ function formatLanguagesData(languagesData) {
     };
     const icon = iconMapping[lang.name.toLowerCase()] || 'code-blue'; // Výchozí ikona
     const iconUrl = `https://github.com/patekcz/patekcz/raw/main/icon-language/${icon}.png`;
-    return `<span style="display: inline-flex; align-items: center; font-size: 11px; white-space: nowrap; overflow: hidden;"> <img src="${iconUrl}" height="15" alt="${lang.name.toLowerCase()} logo" style="margin-right: 0px;" /> **${lang.name.toLowerCase()}**: ${lang.percent.toFixed(2)}%</span>`; // Zajištění jednoho řádku
+    return `<span style="display: inline-flex; align-items: center; font-size: 12px; white-space: nowrap; overflow: hidden;"> <img src="${iconUrl}" height="15" alt="${lang.name.toLowerCase()} logo" style="margin-right:4px;" /> **${lang.name.toLowerCase()}**: ${lang.percent.toFixed(2)}%</span>`; // Zajištění jednoho řádku
   }).join(' | '); // Použití '|' pro oddělení jazyků
   return `${languages}`;
 }
