@@ -58,23 +58,23 @@
 
 <br></br>
 <!-- WAKATIME-START -->
-All time: 487 hrs 23 mins
+All time: 489 hrs 18 mins
 
 ```
-Středa                  1 hr 1 min 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 Čtvrtek              3 hrs 48 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
 Pátek                      53 mins 🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 Sobota                1 hr 51 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
-Neděle                 1 hr 6 mins 🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+Neděle                1 hr 55 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 Pondělí                     0 secs 🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 Úterý                       0 secs 🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+Středa                      0 secs 🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 ```
 
-<span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/js.png" height="15" alt="javascript logo" /> **javascript**: 51.46%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/java.png" height="15" alt="java logo" /> **java**: 19.67%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/code-blue.png" height="15" alt="other logo" /> **other**: 11.22%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/brackets-yellow.png" height="15" alt="json logo" /> **json**: 7.67%</span>
+<span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/java.png" height="15" alt="java logo" /> **java**: 36.50%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/js.png" height="15" alt="javascript logo" /> **javascript**: 35.42%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/code-blue.png" height="15" alt="other logo" /> **other**: 9.42%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/brackets-yellow.png" height="15" alt="json logo" /> **json**: 6.02%</span>
 
-<span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/shell.png" height="15" alt="bash logo" /> **bash**: 4.58%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/code-blue.png" height="15" alt="groovy logo" /> **groovy**: 2.91%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/code-blue.png" height="15" alt="c++ logo" /> **c++**: 1.39%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/code-blue.png" height="15" alt="java properties logo" /> **java properties**: 0.68%</span>
+<span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/shell.png" height="15" alt="bash logo" /> **bash**: 5.16%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/code-blue.png" height="15" alt="groovy logo" /> **groovy**: 4.04%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/code-blue.png" height="15" alt="c++ logo" /> **c++**: 1.93%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/code-blue.png" height="15" alt="java properties logo" /> **java properties**: 0.94%</span>
 
-<span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/yaml.png" height="15" alt="yaml logo" /> **yaml**: 0.33%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/python.png" height="15" alt="python logo" /> **python**: 0.07%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/code-blue.png" height="15" alt="toml logo" /> **toml**: 0.02%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/gear.png" height="15" alt="makefile logo" /> **makefile**: 0.00%</span>
+<span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/yaml.png" height="15" alt="yaml logo" /> **yaml**: 0.46%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/python.png" height="15" alt="python logo" /> **python**: 0.09%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/code-blue.png" height="15" alt="toml logo" /> **toml**: 0.01%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/gear.png" height="15" alt="makefile logo" /> **makefile**: 0.00%</span>
 
 <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/brackets-orange.png" height="15" alt="html logo" /> **html**: 0.00%</span>
 <!-- WAKATIME-END -->
