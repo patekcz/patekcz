@@ -84,9 +84,10 @@ Neděle                     31 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜�
 
 
 <div align="center">
-All time on wakatime
   
 ![gray0_ctp_on_line](https://github.com/user-attachments/assets/bc5b47a3-8f14-48d8-8674-05f03a761166)
 
 <img alt="wakatime stat all time" src="https://wakatime.com/share/@patek_cz/11b94986-c9de-4dc1-ac75-f9ff3d5078d5.svg">
+
+All time on wakatime
 </div>
