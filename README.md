@@ -89,5 +89,5 @@ Pondělí                     2 mins 🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
 <img alt="wakatime stat all time" src="https://wakatime.com/share/@patek_cz/11b94986-c9de-4dc1-ac75-f9ff3d5078d5.svg">
 
-All time on wakatime
+Wakatime stats started on September 16, 2023.
 </div>
