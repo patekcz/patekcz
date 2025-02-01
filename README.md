@@ -61,13 +61,13 @@
 All time: 570 hrs 36 mins
 
 ```
-Sobota               3 hrs 42 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 Neděle               7 hrs 12 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜
 Pondělí              8 hrs 37 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
 Úterý                2 hrs 27 mins 🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 Středa               2 hrs 13 mins 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 Čtvrtek                1 hr 7 mins 🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 Pátek                       0 secs 🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+Sobota                      0 secs 🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 ```
 
 <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/code-blue.png" height="15" alt="other logo" /> **other**: 60.43%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/markdown.png" height="15" alt="markdown logo" /> **markdown**: 16.85%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/brackets-sky.png" height="15" alt="css logo" /> **css**: 10.13%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/brackets-orange.png" height="15" alt="html logo" /> **html**: 4.32%</span>
