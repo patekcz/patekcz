@@ -58,7 +58,7 @@
 
 <br></br>
 <!-- WAKATIME-START -->
-All time: 787 hrs 6 mins
+All time: 790 hrs 38 mins
 
 ```
 Pondělí              5 hrs 50 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨
@@ -66,8 +66,8 @@ Pondělí              5 hrs 50 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩�
 Středa               5 hrs 33 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜
 Čtvrtek              4 hrs 37 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜
 Pátek                4 hrs 19 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜
-Sobota                      6 mins 🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
-Neděle                      0 secs 🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+Sobota               3 hrs 31 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+Neděle                1 hr 29 mins 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 ```
 
 <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/java.png" height="15" alt="java logo" /> **java**: 47.14%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/yaml.png" height="15" alt="yaml logo" /> **yaml**: 14.39%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/js.png" height="15" alt="javascript logo" /> **javascript**: 7.33%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/shell.png" height="15" alt="bash logo" /> **bash**: 6.01%</span>
