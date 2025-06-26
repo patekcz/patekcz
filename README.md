@@ -68,8 +68,8 @@ Sobota                      0 secs 🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 Neděle                      0 secs 🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 Pondělí                     0 secs 🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 Úterý                2 hrs 40 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
-Středa                     17 mins 🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
-Čtvrtek                     0 secs 🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+Středa               2 hrs 15 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜
+Čtvrtek               1 hr 21 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 ```
 
 <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/js.png" height="15" alt="javascript logo" /> **javascript**: 36.61%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/java.png" height="15" alt="java logo" /> **java**: 30.27%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/code-blue.png" height="15" alt="other logo" /> **other**: 12.56%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/brackets-yellow.png" height="15" alt="json logo" /> **json**: 12.15%</span>
