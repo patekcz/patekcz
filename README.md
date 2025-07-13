@@ -60,7 +60,7 @@
 
 <br></br>
 <!-- WAKATIME-START -->
-All time: 933 hrs 5 mins
+All time: 936 hrs 55 mins
 
 ```
 Pondělí              2 hrs 16 mins 🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
@@ -68,8 +68,8 @@ Pondělí              2 hrs 16 mins 🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜�
 Středa                      0 secs 🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 Čtvrtek              2 hrs 12 mins 🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 Pátek                       6 mins 🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
-Sobota               2 hrs 10 mins 🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
-Neděle                      0 secs 🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+Sobota               3 hrs 50 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+Neděle                      2 mins 🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 ```
 
 <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/java.png" height="15" alt="java logo" /> **java**: 78.57%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/js.png" height="15" alt="javascript logo" /> **javascript**: 5.87%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/vue.png" height="15" alt="vue.js logo" /> **vue.js**: 5.00%</span> | <span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/code-blue.png" height="15" alt="gdscript3 logo" /> **gdscript3**: 3.82%</span>
