@@ -30,7 +30,7 @@ function createASCIIGraph(data) {
   }
 
   const graphWidth = 25;
-  const dny = ['Neděle', 'Pondělí', 'Úterý', 'Středa', 'Čtvrtek', 'Pátek', 'Sobota'];
+  const dny = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   const today = new Date();
   today.setHours(0, 0, 0, 0);  // Nastavte čas na půlnoc
   const sevenDaysAgo = new Date(today);
