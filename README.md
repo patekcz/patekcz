@@ -72,7 +72,7 @@ Friday                      2 mins 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩�
 Saturday                     0 secs 🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 ```
 
-
+<span style="font-size: 12px;"> <img src="https://github.com/patekcz/patekcz/raw/main/icon-language/markdown.png" height="15" alt="markdown logo" /> **markdown**: 100.00%</span>
 <!-- WAKATIME-END -->
 
 
